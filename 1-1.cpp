@@ -3,7 +3,7 @@
 #define _SET_BIT(x, y) x |= 0x01<<(y)
 #define _GET_BIT(x, y) (x>>(y)) & 0x01
 using namespace std;
-//ve r
+//ve rjjj
 void BitMapInit(unsigned int bitMap[], int len){
     for (int i=0; i<len; i++){
         bitMap[i] = 0;
